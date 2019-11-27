@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jimwmg/lerna-travis/issues"
   },
-  "homepage": "https://github.com/jimwmg/lerna-travis#readme"
+  "homepage": "https://github.com/jimwmg/lerna-travis#readme",
+  "dependencies": {
+    "lerna-tool1": "^2.0.0"
+  }
 }
