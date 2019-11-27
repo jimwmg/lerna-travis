@@ -5,7 +5,7 @@ language: node_js # 你用啥语言？这里node
     install: # 安装依赖环境
       - npm install
     script: # 你要执行的脚本，构建当然是npm run build啦 
-      - npm run test
+      - npm version patch 
     branches: #构建哪些分支？master
       only:
         - master
