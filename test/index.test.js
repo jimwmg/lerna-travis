@@ -1,5 +1,5 @@
 const assert = require('assert');
-const sum = require('../../src/index.js');
+const sum = require('../index.js');
 
 describe('#hello.js', () => {
 
@@ -19,4 +19,5 @@ describe('#hello.js', () => {
       it('sum(1, 2, 3) should return 6', () => {
           assert.strictEqual(sum(1, 2, 3), 6);
       });
-  });
+  })
+})

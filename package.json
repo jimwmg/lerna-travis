@@ -18,11 +18,11 @@
   },
   "homepage": "https://github.com/jimwmg/lerna-travis#readme",
   "dependencies": {
-    "lerna-tool1": "^2.0.0",
-    "mocha": "^6.2.2"
+    "lerna-tool1": "^2.0.0"
   },
   "devDependencies": {
     "coveralls": "^3.0.9",
-    "istanbul": "^0.4.5"
+    "istanbul": "^0.4.5",
+    "mocha": "^6.2.2"
   }
 }
