@@ -1,5 +1,5 @@
 {
-  "name": "learn-travis-test",
+  "name": "learn-travis",
   "version": "2.0.1",
   "description": "",
   "main": "index.js",
@@ -21,6 +21,7 @@
     "lerna-tool1": "^2.0.0"
   },
   "devDependencies": {
+    "codecov": "^3.6.1",
     "coveralls": "^3.0.9",
     "istanbul": "^0.4.5",
     "mocha": "^6.2.2"
