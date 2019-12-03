@@ -43,8 +43,20 @@ script:
 
 构建之后如下 ： https://travis-ci.org/jimwmg/lerna-travis
 
-可以看到以下这个图标生成了
+可以看到以下这个图标生成了,既可以直接用 travis-ci 域名下的图标地址
 ![](https://travis-ci.org/jimwmg/lerna-travis.svg?branch=master)
+
+```
+https://travis-ci.org/jimwmg/lerna-travis.svg?branch=master
+```
+
+![](http://img.shields.io/travis/jimwmg/lerna-travis.svg)
+
+也可以使用 https://shields.io/ 域名下的图标地址；
+
+```
+http://img.shields.io/travis/{GitHub 用户名}/{项目名称}.svg
+```
 
 ### 3 Coveralls 
 
@@ -54,7 +66,34 @@ script:
 
 项目中增加 [mocha](https://mochajs.cn/#installation)
 
+
+
 增加 mocha 之后，[在这里](https://coveralls.io/github/jimwmg/lerna-travis)可以看到 生成的 coverage 的小icon ,![链接](https://coveralls.io/repos/github/jimwmg/lerna-travis/badge.svg?branch=master)
+
+```
+https://coveralls.io/repos/github/jimwmg/lerna-travis/badge.svg?branch=master
+```
+也可以在 shields 域名下：
+[在这里](https://shields.io/category/coverage)  可以生成获得对应的 badge；![](https://img.shields.io/coveralls/github/jimwmg/lerna-travis/master)
+
+```
+https://img.shields.io/coveralls/github/jimwmg/lerna-travis/master
+```
+
+
+### 4 [codecov](https://codecov.io/gh)
+
+[npm-codecov](https://www.npmjs.com/package/codecov)
+
+在`.travis.yml`中增加以下脚本 `./node_modules/.bin/codecov`
+
+![](https://codecov.io/gh/jimwmg/lerna-travis/branch/master/graph/badge.svg)
+
+
+
+### 5 [shields](https://shields.io/)
+
+比如想要某个npm 包的下载量，在 [shields官网](https://shields.io/) 选择 downloads ,然后选择 npm，那一个，可以到[这里](https://shields.io/category/downloads)
 
 
 
@@ -63,3 +102,17 @@ script:
 [跟踪github项目的持续集成状态](https://harttle.land/2016/04/30/github-ci.html)
 
 
+### 总结
+
+#### 为什么我们需要这些徽章？
+
+[参考如何挑选高质量的 npm 模块](https://github.com/atian25/blog/issues/19)
+
+对于npm模块有以下几个维度去考量；
+1 质量 Quality
+
+2 维护状况 Maintenance
+
+3 知名度 Popularity
+
+4 个人魅力 Personalities
