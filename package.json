@@ -24,6 +24,6 @@
     "codecov": "^3.6.1",
     "coveralls": "^3.0.9",
     "istanbul": "^0.4.5",
-    "mocha": "^6.2.2"
+    "mocha": "^10.2.0"
   }
 }
